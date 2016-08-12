@@ -31,7 +31,7 @@ When loading extensions from python, the python binary needs to be built with
 the --enable-loadable-sqlite-extensions configure argument.  You then need to
 enable the loading of extensions using:
 
-  self.dbconn.enable_load_extension(True)
+  dbconn.enable_load_extension(True)
 
 After that, you can issue the above SELECT statement to load the extension.
 
